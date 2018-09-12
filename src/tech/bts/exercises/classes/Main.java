@@ -8,12 +8,9 @@ public class Main {
 
         Car audi = new Car("Audi A8");
 
-        ferrari.speed = 300;
-
         ferrari.accelerate(100);
-        ferrari.accelerate(100);
-        ferrari.accelerate(99);
-        ferrari.accelerate(50);
+        ferrari.decelerate(40);
+        ferrari.decelerate(80);
 
 
         //Car temp; //temporary variable (temp) and switching ferrari refering to audi and audi to ferrari
