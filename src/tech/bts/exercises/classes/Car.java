@@ -7,9 +7,9 @@ public class Car {
     int speed;
 
     //Constructor
-    public Car(String model, int speed){
+    public Car(String model){
         this.model = model; //values are stored in the variable model
-        this.speed = speed; // values are stored in the variable speed
+        this.speed = 0; // values are stored in the variable speed
     }
 
     //Method or Functions
