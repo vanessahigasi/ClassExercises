@@ -9,8 +9,16 @@ public class Main {
         Car audi = new Car("Audi A8");
 
         ferrari.accelerate(100);
-        ferrari.decelerate(40);
-        ferrari.decelerate(80);
+        audi.accelerate(30);
+
+        ferrari.printStatus();
+        audi.printStatus();
+
+        int speed1 = ferrari.getSpeed();
+        int speed2 = audi.getSpeed();
+
+        int difference = speed1 - speed2;
+        System.out.println( "difference = " + difference);
 
 
         //Car temp; //temporary variable (temp) and switching ferrari refering to audi and audi to ferrari
@@ -24,9 +32,6 @@ public class Main {
         //ferrari = someCar; //ferrari will have the value of audi
         // Audi A8 driving at 150km/h
 
-        ferrari.printStatus();
-
-        audi.printStatus();
 
         //System.out.println(audi.model + " driving at " + audi.speed + "km/h");
         //System.out.println(ferrari.model + " driving at " + ferrari.speed + "km/h");

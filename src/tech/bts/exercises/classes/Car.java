@@ -3,8 +3,8 @@ package tech.bts.exercises.classes;
 public class Car {
 
     //Fields / properties
-    String model;
-    int speed;
+    private String model;
+    private  int speed;
 
     //Constructor
     public Car(String model){
@@ -27,6 +27,11 @@ public class Car {
         if (this.speed < 0){
            this.speed = 0;
         }
+    }
+
+    //this method because speed in private
+    public int getSpeed(){
+        return this.speed;
     }
 
     public void printStatus (){
