@@ -11,8 +11,12 @@ public class Main {
         ferrari.accelerate(100);
         audi.accelerate(30);
 
-        ferrari.printStatus();
-        audi.printStatus();
+        String s = ferrari.toString();
+        System.out.println(s);
+
+        //System.out.println () calls toString() method by default
+        System.out.println(audi);
+        System.out.println(ferrari);
 
         int speed1 = ferrari.getSpeed();
         int speed2 = audi.getSpeed();
