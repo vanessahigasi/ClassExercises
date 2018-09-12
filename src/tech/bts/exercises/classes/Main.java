@@ -18,7 +18,12 @@ public class Main {
         //someCar.speed =100; //change the speed of the audi
         //ferrari = someCar; //ferrari will have the value of audi
         // Audi A8 driving at 150km/h
-        System.out.println(audi.model + " driving at " + audi.speed + "km/h");
-        System.out.println(ferrari.model + " driving at " + ferrari.speed + "km/h");
+
+        ferrari.printStatus();
+
+        audi.printStatus();
+
+        //System.out.println(audi.model + " driving at " + audi.speed + "km/h");
+        //System.out.println(ferrari.model + " driving at " + ferrari.speed + "km/h");
     }
 }
