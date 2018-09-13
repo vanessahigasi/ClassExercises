@@ -1,4 +1,4 @@
-package tech.bts.exercises.classes;
+package tech.bts.exercises.classes.car;
 
 public class Car {
 
